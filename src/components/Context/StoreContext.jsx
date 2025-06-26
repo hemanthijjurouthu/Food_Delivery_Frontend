@@ -7,7 +7,7 @@ const StoreContextProvider = ({ children }) => {
 
     const [cartItems,setCartItems] = useState({});
 
-    const url = import.meta.env.VITE_BACKEND_URL;
+    const url = "https://food-delivery-backend-k5qhe.vercel.app";
 
     const [token,setToken] = useState("");
 
