@@ -7,7 +7,7 @@ const StoreContextProvider = ({ children }) => {
 
     const [cartItems,setCartItems] = useState({});
 
-    const url = "https://food-delivery-backend-k5qhe.vercel.app";
+    const url = "https://food-delivery-backend-wk7o.onrender.com";
 
     const [token,setToken] = useState("");
 
